@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="Restaurant.css">
+    <link rel="stylesheet" href="restaurant.js">
+    <link rel="logo" href="allfoods/cartforawhite.jpg">
+    
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="left-header">
+                <p>Restaurant</p>
+                <div class="hutao">
+                    <img src="/web for new product/Restuarant/usedphoto/Picsart_25-07-24_01-54-34-801.png" alt="">
+                </div>
+            </div>
+            <div class="middle-header">
+                <input class="search" type="search" placeholder="Search">
+            </div>
+            <div class="right-header">
+                
+                <div class="menu">
+                    <a href="http://127.0.0.1:5500/web%20for%20new%20product/Restuarant/01-Restaurant.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#service">Service</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div>
+                    <input type="checkbox">
+                </div>
+                <div class="cart">
+                    <img src="/web for new product/Restuarant/usedphoto/cartforawhite.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="middle">
+        <div class="middle-left">
+            <div class="design">
+                <div class="first-img">
+                    <div class="first-img-pic">
+                        <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1751781669230.jpg" alt="">
+                    </div>
+                    <div class="best-sale">BEST SALE!</div>
+                    <div class="price-div">
+                        <div class="price">P 166</div>
+                        <div class="only">Only!</div>
+                    </div>
+                </div>
+                
+                <div class="info-first-img">
+                    <p class="samgyupsal">Samgyupsal</p>
+                    <p class="samgyupsal-about"><span style="font-style: italic;
+                    font-weight: bold;">Samgyupsal</span>  is the BEST sea food in Japan, people in Japan realy like  this kind of food. One of the  Japaness like is the auroma, they said the auroma will make them even more hungry and excited to eat.</p>
+
+                    <div class="rating">
+                        <button onclick=" 
+                        pickComputerMove();
+                        
+                        alert(`Thank you for buying our ${foodName}. Your order will be delivered soon. `);
+
+                        ">Order</button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <hr style="color: rgb(255, 111, 15);"> -->
+
+            <div class="the-three-img">
+                <div class="first-third-img">
+                    <div class="second-img">
+                        <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1744642350648.jpg" alt="">
+                    </div>
+                    <div class="top">All in Top</div>
+                    <p class="name">Samyang</p>
+                    <div class="third-button-order">
+                        <p class="pricetwo">P 139</p>
+                        <button onclick=" 
+                        pickComputerMove();
+
+                        alert(`Thank you for buying our ${foodName}, Your order will be delivered soon `);
+                        
+                        ">Order</button>
+                    </div>
+                </div>
+
+                <script>
+                    
+                    function pickComputerMove() {
+
+                        const computerMove = 'firstfood';
+
+                        let foodName = '';
+
+                        if (computerMove === 'firstfood') {
+                            foodName = 'samgyupsal';
+                        } else {
+                            foodName = 'nothing';
+                        }
+
+                        return foodName
+                    }
+                </script>
+                
+                <div class="first-third-img">
+                    <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1744642346816.jpg" alt="">
+                    <div class="top">All in Top</div>
+                    <p class="name">Samyang</p>
+                    <div class="third-button-order">
+                        <p class="pricetwo">P 122</p>
+                        <button onclick="
+
+                        ">Order</button>
+                    </div>
+                </div>
+
+                <div class="first-third-img">
+                    <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1744642354215.jpg" alt="">
+                    <div class="top">All in Top</div>
+                    <p class="name">Samyang</p>
+                    <div class="third-button-order">
+                        <p class="pricetwo">P 199</p>
+                        <button onclick="
+                        orderList('third food')">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-right">
+            <div class="middle-right-left">
+                <div class="special-offer">
+                    <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1744977833026.jpg" alt="">
+                    <!-- <div class="special-offer-toolbar">Special Offer!</div> -->
+                    <p class="sale-two">Special offer!</p>
+                    <div class="off">50% OFF!</div>
+                </div>
+
+                <div class="special-offer-details">
+                    <div class="special-price">
+                        <div class="past-price">P 799</div>
+                        <div class="to">-</div>
+                        <div class="present-price">P 399</div>
+                    </div>
+                    <div class="product-purchase">
+                        <p>name</p>
+                        <button>Order</button>
+                    </div>
+                    <div class="special-details">
+                    <span style="font-style: italic;
+                    font-weight: bold;
+                    margin-right: 2px ;">Samyang</span>- is our luxery food, due to its remarkable auroma of a flower with a smoke effect. Samyang have an also a benefits to our body health, it contains the Iron to help our bone become more strong.
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-right-right">
+                <div class="yogurt">
+                    <div class="first-yogurt">
+                        <div class="yogurt-name">Yogurt</div>
+                        <div class="yogurt-img">
+                            <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1751342795991.jpg" alt="">
+                        </div>
+                        <div class="yogurt-price">P 26</div>
+                        <div class="yogurt-order"> <button>Order</button></div>
+                    </div>
+                    <div class="first-yogurt">
+                        <div class="yogurt-name">Fruit juice</div>
+                        <div class="yogurt-img">
+                            <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1752166989136.jpg" alt="">
+                        </div>
+                        <div class="yogurt-price">P 49</div>
+                        <div class="yogurt-order"> <button>Order</button></div>
+                    </div>
+                    <div class="first-yogurt">
+                        <div class="yogurt-name">Wine lemon </div>
+                        <div class="yogurt-img">
+                            <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1752895114848.jpg" alt="">
+                        </div>
+                        <div class="yogurt-price">P 36</div>
+                        <div class="yogurt-order"> <button>Order</button></div>
+                    </div>
+                </div>
+                
+                <div class="all-bread">
+                    <div class="bread">Pie Bread</div>
+                    <div class="bread-bottom">
+                        <div class="bread-img">
+                            <img src="/web for new product/Restuarant/usedphoto/FB_IMG_1752166932364.jpg" alt="">
+                        </div>
+
+                        <div class="bread-info">
+                            <div class="bread-price">P 50</div>
+                            <div class="bread-bottom-div"><button class="bread-order">Order</button></div>
+                            
+                        </div>
+                        <div class="pie-info">Pie bread is our best bread in Japan which in contean a good taste and sweet auroma.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!-- <div>
+    <img src="/web for new product/Restuarant/allfoods/Hutao2.png 
+    -->
+    <script>
+
+        // function orderlist() {  //playGame
+        //     const nameclick = '';
+
+        //     let foodName = ''; //result
+        //     //nameclick = playermove
+        //     if (nameclick === 'Samgyupsal') {
+        //         foodName = 'Samgyupsal';//result
+        //     } else if (nameclick === 'first food') {
+        //         foodName = 'first food';
+        //     } else if (nameclick === 'second food') {
+        //         nameclick = 'second food';
+        //     } else if (nameclick === 'third food') {
+        //         foodName = 'third food';
+        //     }    
+
+
+        //     console.log(`Thank you for buying our ${foodName}, Your order will be delivered soon `);
+
+        // }
+    </script>
+    
